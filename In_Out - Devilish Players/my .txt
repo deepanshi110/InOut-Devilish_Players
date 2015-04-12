@@ -1,0 +1,111 @@
+<!DOCTYPE>
+<html>
+<body style='background=Textured-background.jpg'>
+<h1 >ADITI SONI</h1>
+<br>
+<fieldset><legend><h1 style="font-family:old english text;color:green;font-size:25px;">DETAILS</h1></legend>
+<p><img src="C:\Users\mgc\Desktop\PRACTISE\html\ME.jpg" alt="ME" width="150" height="170"></p>
+<table style="width:300px;">
+<tr>
+<td><b><i style="font-family:old english text;color:blue;font-size:20px;">NAME</i></b></td>
+<td>:</td>
+<td>Aditi Soni</td>
+</tr>
+<tr>
+<td><b><i style="font-family:old english text;color:blue;font-size:20px;">DOB</i></b></td>
+<td>:</td>
+<td>04-09-1995</td>
+</tr>
+<tr>
+<td><b><i style="font-family:old english text;color:blue;font-size:20px;">E-MAIL ID</i></b></td>
+<td>:</td>
+<td>soniaditi123@gmail.com</td>
+</tr>
+</table>
+</fieldset>
+<br>
+<br>
+<fieldset><legend><h1 style="font-family:old english text;color:green;font-size:25px;">EDUCATIONAL QUALIFICATIONS</h1></legend>
+<table border="2" style ="width:1000px">
+<tr>
+<td><b >DEGREE<b></td>
+<td><b>INSTITUTE<b></td>
+<td><b>YEAR<b></td>
+<td><b>PERCENTAGE/CGPA<b></td>
+</tr>
+<tr>
+<td>B.Tech 1</td>
+<td>SVNIT Surat</td>
+<td>2014</td>
+<td>9.78(CGPA)</td>
+</tr>
+<tr>
+<td>12th- Science Maths</td>
+<td>St. Mary's convent school</td>
+<td>2013</td>
+<td>94%</td>
+</tr>
+<tr>
+<td>10th</t`d>
+<td>St. Mary's convent school</td>
+<td>2011</td>
+<td>9.8(CGPA)</td>
+</tr>
+</table>
+</fieldset>
+<br>
+<fieldset><legend><h1 style="font-family:old english text;color:green;font-size:25px;">TECHNICAL SKILLS</h1></legend>
+<table style="width:400px;">
+<tr>
+<td><b><i style="font-family:old english text;color:blue;font-size:20px;">OPERATING SYSTEM</i></b></td>
+<td>:</td>
+<td>Windows, Ubuntu</td>
+</tr>
+<tr>
+<td><b><i style="font-family:old english text;color:blue;font-size:20px;">LANGUAGES</i></b></td>
+<td>:</td>
+<td>C, Java</td>
+</tr>
+<tr>
+<td><b><i style="font-family:old english text;color:blue;font-size:20px;">EXTRAS</i></b></td>
+<td>:</td>
+<td>Picasa, Photoshop</td>
+</tr>
+</table>
+</fieldset>
+<br>
+<fieldset><legend><h1 style="font-family:old english text;color:green;font-size:25px;">STRENGTHS</h1></legend>
+<ul>
+<li>Hard Working</li>
+<li>Determined</li>
+<li>Leadership qualities</li>
+</ul>
+</fieldset>
+<br>
+<fieldset><legend><h1 style="font-family:old english text;color:green;font-size:25px;">HOBBIES</h1></legend>
+<ul>
+<li>Net surfing</li>
+<li>Reading Novels</li>
+<li>Dancing</li>
+<li>Travelling</li>
+</ul>
+</fieldset>
+<br>
+<fieldset><legend><h1 style="font-family:old english text;color:green;font-size:25px;">REFERENCES</h1></legend>
+<ul>
+<li><b>Mr. Harish Chand Soni</b>- Training and Placement officer- Politechnic College Ajmer</li>
+<p>Phone no.- 09414259462 </p>
+<li><b>Mr. Siddharth</b>- Manager- Help Career Academy</li>
+<p>Phone no.- 09460089916 </p>
+</ul>
+</fieldset>
+</body>
+</html>
+
+
+
+
+
+
+
+

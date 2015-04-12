@@ -1,0 +1,33 @@
+<! DOCTYPE>
+<html>
+<head>
+<style>
+
+div.b
+{
+	left: 600px;
+top:450px;
+	position:absolute;
+	height:700px;
+	width: 550px
+}
+
+</style>
+</head>
+
+
+<body background='Desktop1.jpg'>
+<br>
+
+<div class='b'>
+<b style="font-size:80px; color:black;font-family: AR DECODE">
+<i>Udaipur is probably the prettiest city I visited in India and is known as the City of Lakes
+or the ‘Venice of the East’ because of the canals connecting the lakes. Udaipur is the key 
+city Mewar, the southern region of Rajasthan and is also known as being one of the most 
+romantic cities in India.</i><br>
+						  <i>The places checked out in udaipur were </i>
+						  <br>-> Celebration Mall 
+						  <br>-> Gateway Restaurant
+						  <br>-> Jaiwana Haveli</b></div>
+</body>
+</html>

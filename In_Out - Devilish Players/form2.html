@@ -1,0 +1,104 @@
+<html>
+<body background='powerpoint-design-template.jpg'>
+<h1 style=" text-align:center;">APPLICANT DETAILS</h1>
+<center>
+<style>
+label
+{
+font-size:25px;
+color:darkblue;
+display: inline-blOck;
+width:220px;
+}
+input{
+
+margin:10px 3px;
+
+}
+</style>
+
+<form onsubmit="return val()" method="post" action='submit.html' name="my">
+<label>Username*</label>
+<input type="text" name="uname"><br>
+<label>Password*</label>
+<input type="password" name="pass"><br>
+<label>Confirm Password*</label>
+<input type="password" name="cpass"><br>
+<label>Age*</label>
+<input type="text" name="age"><br>
+<label>Phone*</label>
+<input type="text" name="phone"><br>
+<label>Email</label>
+<input type="text" name="email"><br>
+<label>Fax</label>
+<input type="text" name="fax"><br>
+<label>Date Of Birth*</label>
+<input type="text" name="dob"><br>
+<label>Country*</label>
+<select name="country">
+<option value="india" selected>India</option>
+<option value="usa">USA</option>
+<option value="uk">UK</option>
+<option value="canada">Canada</option>
+</select><br>
+<label>Gender*</label>
+<input type="radio" name="sex" value="Male">Male
+<input type="radio" name="sex" value="Female">Female<br>
+<input type="submit" value="Submit">
+</form>
+<script>
+function val()
+{
+	var x=document.forms["my"]["uname"].value;
+	
+	if(x=="")
+	{
+	alert("Username is Required");
+	return false;
+	}
+	x=document.forms["my"]["pass"].value;
+	if(x=="")
+	{
+	alert("Password is Required");
+	return false;
+	}
+	var y=document.forms["my"]["cpass"].value;
+	if(x!=y)
+	{
+	alert("Password and Confirm Password Doesnt Match");
+	return false;
+	}
+	x=document.forms["my"]["age"].value;
+	if(isNaN(x))
+	{
+		alert("Age Must be Numeric value");
+		return false;
+	}
+	x=document.forms["my"]["email"].value;
+	var atpos = x.indexOf("@");
+	var atposl = x.lastIndexOf("@");
+    var dotpos = x.lastIndexOf(".");
+	if(atpos==0||dotpos<atpos||dotpos==0||atpos+1==dotpos||dotpos>x.length-3||atpos!=atposl||atpos==-1||dotpos==-1)
+	{
+	alert("Invalid Email");
+	return false;
+	}
+	x=document.forms["my"]["phone"].value;
+	if(isNaN(x)||x==""||x.length!=10)
+	{
+	alert("Phone Number must be numeric and of 10 digits");
+	return false;
+	}
+	x=document.forms["my"]["sex"];
+	
+	if(x[0].checked==false&&x[1].checked==false)
+	{
+    alert("Please select a Gender");
+    return false;
+	}
+}
+
+</script>
+</center>
+</body>
+</html>
